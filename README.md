@@ -1,4 +1,4 @@
-# Build the project on Gulp 4 using SASS(SCSS)
+# Gulp 4 build for projects which using SASS(SCSS)/LESS/Stylus and JS
 
 ## Project Description:
 Using these files, you can quickly configure the build of your project on Gulp.
