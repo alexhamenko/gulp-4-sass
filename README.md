@@ -39,15 +39,18 @@ Open `cmd` on Windows or `Terminal` on Linux/MacOS and follow next steps:
 >./package.json  
 >./index.html  
 
-## If you want to use LESS or Stylus preprocessors instead of SASS do the following from the project folder after downloading the `Gulp 4 SASS` project:
+###### `main.scss`, `media.scss`, `lib.js` and `main.js` - these files are used for verifying the correct work of the build. To use your own file, add it to the `src/css` or `src/js` folder and edit correct the corresponding lines in the `cssFiles` and `jsFiles` variables from`gulpfile.js`.
+
+## If you want to use LESS or Stylus preprocessors instead of SASS do the following after downloading this project:
 
 #### LESS:
-1. Run command `npm i`
-2. Run command `npm i -SD gulp-less`
-3. Run command `npm uninstall gulp-sass -SD`
-4. Change extensions of style files from `scss` to `less` in the `src/css` folder
-5. Replace SCSS code with LESS code in the style files from `src/css` folder 
-6. Edit gulpfile.js:
+1. Go to the project folder - `cd gulp-4-sass`
+2. Run command `npm i`
+3. Run command `npm i -SD gulp-less`
+4. Run command `npm uninstall gulp-sass -SD`
+5. Change extensions of style files from `scss` to `less` in the `src/css` folder
+6. Replace SCSS code with LESS code in the style files from `src/css` folder 
+7. Edit gulpfile.js:
     - change `const sass = require('gulp-sass');` to `const less = require('gulp-less');`
     - change files extensions from `scss` to `less` in the `const cssFiles`
     - change `.pipe(sass())` to the `.pipe(less())` in the `styles()` function
@@ -55,12 +58,13 @@ Open `cmd` on Windows or `Terminal` on Linux/MacOS and follow next steps:
     - delete `gulp.watch('./src/css/**/*.scss', styles);`
  
 #### Stylus:
-1. Run command `npm i`
-2. Run command `npm i -SD gulp-stylus`
-3. Run command `npm uninstall -SD gulp-sass`
-4. Change extensions of style files from `scss` to `styl` in the `src/css` folder
-5. Replace SCSS code with Stylus code in the style files from `src/css` folder 
-6. Edit gulpfile.js:
+1. Go to the project folder - `cd gulp-4-sass`
+2. Run command `npm i`
+3. Run command `npm i -SD gulp-stylus`
+4. Run command `npm uninstall -SD gulp-sass`
+5. Change extensions of style files from `scss` to `styl` in the `src/css` folder
+6. Replace SCSS code with Stylus code in the style files from `src/css` folder 
+7. Edit gulpfile.js:
     - change `const sass = require('gulp-sass');` to `const stylus = require('gulp-stylus');`
     - change file's extensions from `scss` to `styl` in the `const cssFiles`
     - change `.pipe(sass())` to `.pipe(stylus())` in the `styles()` function
