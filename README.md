@@ -41,7 +41,7 @@ Open `cmd` on Windows or `Terminal` on Linux/MacOS and follow next steps:
 
 ###### `main.scss`, `media.scss`, `lib.js` and `main.js` - these files are used for verifying the correct work of the build. To use your own file, add it to the `src/css` or `src/js` folder and edit correct the corresponding lines in the `cssFiles` and `jsFiles` variables from`gulpfile.js`.
 
-## If you want to use LESS or Stylus preprocessors instead of SASS do the following after downloading this project:
+## If you want to use LESS or Stylus preprocessors instead of SASS, do the following steps after downloading this project:
 
 #### LESS:
 1. Go to the project folder - `cd gulp-4-sass`
