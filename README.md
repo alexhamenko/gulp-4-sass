@@ -3,7 +3,7 @@
 ## Project Description:
 Using these files, you can quickly configure the build of your project on Gulp.
 
-##This build includes:
+## This build includes:
 - [gulp-sass](https://www.npmjs.com/package/gulp-sass) - compilation of SASS, SCSS into CSS;
 - [Browsersync](https://browsersync.io/docs/gulp) - browser auto-refresh;
 - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) - automatically arranges vendor prefixes in CSS in accordance with the [Can I Use](https://caniuse.com/) service;
