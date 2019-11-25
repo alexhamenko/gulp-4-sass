@@ -13,13 +13,13 @@ Using these files, you can quickly configure the build of your project on Gulp.
 - [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) - Minify JavaScript;
 - [del](https://www.npmjs.com/package/del) - Delete files and directories using globs;
 
-##Prerequisites
+## Prerequisites
 Install [`Node JS`](https://nodejs.org/en/download/)
 
 Install [`Git`](https://www.atlassian.com/git/tutorials/install-git)
 
 
-##How to use this build?
+## How to use this build?
 Open `cmd` on Windows or `Terminal` on Linux/MacOS and follow next steps:
  - install `gulp` globally - `npm install --global gulp-cli`
  - download build - `git clone https://github.com/alexhamenko/gulp-4-sass`
