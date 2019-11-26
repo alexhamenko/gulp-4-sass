@@ -72,4 +72,4 @@ Open `cmd` on Windows or `Terminal` on Linux/MacOS and follow next steps:
     - delete `gulp.watch('./src/css/**/*.scss', styles);`
 
 
-[Source video](https://youtu.be/KNSP_jDQ1n4)
+Based on [this build](https://github.com/morphIsmail/gulp_settings)
